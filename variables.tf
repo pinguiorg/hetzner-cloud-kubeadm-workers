@@ -44,7 +44,7 @@ variable "ssh_keys" {
 
 variable "server_type" {
   type        = string
-  default     = "cx11"
+  default     = "cpx11"
   description = "The server type to rent"
 }
 
