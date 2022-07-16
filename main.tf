@@ -1,5 +1,5 @@
 module "nodes" {
-  source = "git::https://github.com/squat/hetzner-cloud-flatcar-linux.git?ref=985afb1c7bb4a0159ae77acf6a6be6011bf859ed"
+  source = "git::https://github.com/squat/hetzner-cloud-flatcar-linux.git?ref=285559d091fd651ba41fdb7c5af9b75c787feb5c"
   count  = var.node_count
 
   name = "${var.cluster_name}-${count.index}"
